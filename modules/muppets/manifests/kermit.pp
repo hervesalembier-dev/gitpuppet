@@ -1,4 +1,4 @@
-class muppet::kermit {
+class muppets::kermit {
 
   # Create user kermit
   user { 'kermit':

@@ -1,0 +1,8 @@
+<%- | $name | -%>
+#!/bin/sh
+if [ -f ~/hello.txt ]; then
+  echo "Hello from <%= $listen %>"
+  cat ~/hello.txt;
+else  
+  echo 'Hello from Puppet'
+fi
