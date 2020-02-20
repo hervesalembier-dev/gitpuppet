@@ -23,12 +23,12 @@ class muppet::peggy {
   }
 
   # Create .profile
-  file { '/home/peggy/.profile':
-    ensure => present,
-    content => "echo 'I was created by puppet!'",
-    owner => 'peggy',
-    group => 'peggy',
-  }
+  # file { '/home/peggy/.profile':
+  #   ensure => present,
+  #   content => "echo 'I was created by puppet!'",
+  #   owner => 'peggy',
+  #   group => 'peggy',
+  # }
 
   
 }
